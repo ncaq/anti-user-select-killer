@@ -1,3 +1,13 @@
-* {
-  user-select: text !important;
+/* ==UserStyle==
+@name           anti-user-select-killer
+@namespace      https://www.ncaq.net/
+@author         ncaq
+@version        1.0.0
+@license        CC0-1.0
+==/UserStyle== */
+@-moz-document url-prefix("http://"), url-prefix("https://")
+{
+  * {
+    user-select: text !important;
+  }
 }

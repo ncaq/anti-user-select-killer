@@ -2,12 +2,13 @@
 @name      anti-user-select-killer
 @namespace https://www.ncaq.net/
 @author    ncaq
-@version   1.0.0
+@version   1.0.1
 @license   CC0-1.0
 ==/UserStyle== */
 @-moz-document url-prefix("http://"), url-prefix("https://")
 {
   * {
+    -webkit-user-select: text !important;
     user-select: text !important;
   }
 }
